@@ -10,7 +10,8 @@ class SiteController extends Controller
     //
 
     function index(){
-        return view('index');
+        $lista = Cat::all();
+        return view('index')->with('listaCats',$lista);
     }
     function about(){
         return view('about');
@@ -24,7 +25,7 @@ class SiteController extends Controller
 
     function cats(){
         $lista = Cat::all();
-        return view('page')->with('listaCats',$lista);
+        return view('index')->with('listaCats',$lista);
     }
     
 }
