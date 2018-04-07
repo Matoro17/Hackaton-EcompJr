@@ -14,8 +14,10 @@
    
     <h1>Titulo</h1>
     <ul>
-        <?php foreach($listaMembros as $membro){
-                echo("<li>$membro->mem_nome</li>");
+        <?php foreach($listaCats as $cat){
+                echo("<li>$cat->foto</li>");
+                echo("<li>$cat->nome</li>");
+                echo("<li>$cat->descricao</li>");
               }
         ?>
 

@@ -11,8 +11,8 @@
 |
 */
 
-Route::get('/index.html', 'SiteController@index');
-Route::get('/lista', 'SiteController@membros');
-Route::get('/about.html','SiteController@about');
-Route::get('/products.html','SiteController@products');
-Route::get('/store.html', 'SiteController@store');
+Route::get('/index', 'SiteController@index');
+Route::get('/lista-cats', 'SiteController@cats');
+Route::get('/about','SiteController@about');
+Route::get('/products','SiteController@products');
+Route::get('/store', 'SiteController@store');

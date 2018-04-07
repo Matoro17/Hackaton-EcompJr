@@ -3,7 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Membro;
+use App\Cat;
 
 class SiteController extends Controller
 {
@@ -22,9 +22,9 @@ class SiteController extends Controller
         return view('products');
     }
 
-    function membros(){
-        $lista = Membro::all();
-        return view('page')->with('listaMembros',$lista);
+    function cats(){
+        $lista = Cat::all();
+        return view('page')->with('listaCats',$lista);
     }
     
 }
