@@ -24,38 +24,9 @@
 
   <body>
 
-    <h1 class="site-heading text-center text-white d-none d-lg-block">
-      <span class="site-heading-upper text-primary mb-3">A Free Bootstrap 4 Business Theme</span>
-      <span class="site-heading-lower">Business Casual</span>
-    </h1>
-
-    <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-dark py-lg-4" id="mainNav">
-      <div class="container">
-        <a class="navbar-brand text-uppercase text-expanded font-weight-bold d-lg-none" href="#">Start Bootstrap</a>
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
-          <ul class="navbar-nav mx-auto">
-            <li class="nav-item active px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="index.html">Home
-                <span class="sr-only">(current)</span>
-              </a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="about.html">About</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="products.html">Products</a>
-            </li>
-            <li class="nav-item px-lg-4">
-              <a class="nav-link text-uppercase text-expanded" href="store.html">Store</a>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </nav>
+    <?php
+      include "nav.php";
+    ?>
 
     <section class="page-section clearfix">
       <div class="container">
@@ -69,11 +40,13 @@
             ?>
               
               
+              <span class="section-heading-upper">Diversos gatos na base de dados</span>
+              <span class="section-heading-lower">Encontre o gato perfeito para você</span>
             </h2>
-            <p class="mb-3">Every cup of our quality artisan coffee starts with locally sourced, hand picked ingredients. Once you try it, our coffee will be a blissful addition to your everyday morning routine - we guarantee it!
+            <p class="mb-3">Com ajuda de várias ONG's que abrigam pets, nós sabemos da posição marginalizada que estes animais acabam recebendo na sociedade, por isso a Save CAtz aglomera os registros de gatos de vários gatils e te mostra o gato perfeito de acordo com o seu gosto
             </p>
             <div class="intro-button mx-auto">
-              <a class="btn btn-primary btn-xl" href="#">Visit Us Today!</a>
+              <a class="btn btn-primary btn-xl" href="#">Busque agora seu Pet</a>
             </div>
           </div>
         </div>
@@ -86,10 +59,10 @@
           <div class="col-xl-9 mx-auto">
             <div class="cta-inner text-center rounded">
               <h2 class="section-heading mb-4">
-                <span class="section-heading-upper">Our Promise</span>
-                <span class="section-heading-lower">To You</span>
+                <span class="section-heading-upper">A garantia de</span>
+                <span class="section-heading-lower">Encontrar um gato ideal para o dono ideal</span>
               </h2>
-              <p class="mb-0">When you walk into our shop to start your day, we are dedicated to providing you with friendly service, a welcoming atmosphere, and above all else, excellent products made with the highest quality ingredients. If you are not satisfied, please let us know and we will do whatever we can to make things right!</p>
+              <p class="mb-0">O usuário busca um gatinho para adotar, se cadastra, requisita para ter-lo, podendo vir vacinado, castrado, remediado, de acordo com a ONG que abriga este felino. Em seguida nós da SCA verificamos se o dono pode adotar esse pet, e finalmente temos um dono satisfeito e um felino feliz</p>
             </div>
           </div>
         </div>
