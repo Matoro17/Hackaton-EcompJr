@@ -1,0 +1,11 @@
+h1{
+    margin: 20px;
+    color: darkcyan;
+    font-size: 600;
+}
+body{
+    background: url('/img/wall.jpg');
+}
+li{
+    color: whitesmoke;
+}
